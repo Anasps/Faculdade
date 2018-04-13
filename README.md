@@ -1,2 +1,2 @@
 # Faculdade
-Repository for all files related to Faculdade Anasps
+Repository for all files related to Faculdade Anasps website
