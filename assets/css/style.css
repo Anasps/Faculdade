@@ -659,7 +659,8 @@ section {
 /*------------------------------  header -----------------------------------*/
 
 #header {
-    background: url(../img/slider1.jpg) no-repeat center center;
+    /*background: url(../img/slider1.jpg) no-repeat center center;*/
+    background: url(../img/back.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     display: table;
