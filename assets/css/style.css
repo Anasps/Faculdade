@@ -686,10 +686,6 @@ section {
     vertical-align: middle;
 }
 
-.header-wrapper .header-wrapper-inner .welcome-speech {
-	margin-top: 7em;
-}
-
 .header-wrapper .header-wrapper-inner .welcome-speech h1 {
 	color: #232c35;
     font-size: 35px;
