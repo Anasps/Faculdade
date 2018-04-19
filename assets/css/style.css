@@ -92,7 +92,8 @@ html {
 	border-radius: 5px;
 	padding: 10px 25px;
 	text-transform: uppercase;
-	width: 210px;
+	width: 200px;
+	margin-bottom: 5px;
 }
 
 .btn-black {
