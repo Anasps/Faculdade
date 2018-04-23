@@ -89,7 +89,7 @@ html {
 
 .btn {
 	border: 1px solid #000;
-	border-radius: 0px;
+	border-radius: 5px;
 	padding: 10px 25px;
 	text-transform: uppercase;
 }
@@ -111,6 +111,7 @@ html {
 .btn-blue {
 	background-color: #0066cc;
 	color: #fff;
+	width: 200px;
 }
 
 .btn-blue:hover {
