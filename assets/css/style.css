@@ -109,7 +109,7 @@ html {
 	color: #000;
 }
 .btn-blue {
-	background-color: #0066cc;
+	background-color: rgba(0,102,204,0.8);
 	color: #fff;
 	width: 200px;
 }
