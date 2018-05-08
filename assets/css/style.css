@@ -286,6 +286,23 @@ html {
 	background-repeat: no-repeat;
 }
 
+.maisNoticias h4, a{
+	color: #000;
+}
+#maisNoticias h4, a{
+	color: #000;
+}
+.text-capitalize{
+
+	color: #000;
+
+}
+#text-capitalize{
+
+	color: #000;
+
+}
+
 #multiple-blog-page .page-head,
 #multiple-blog-left-sidebar .page-head {
 	background: url(../img/multiple_blog-bg.jpg);
@@ -386,7 +403,7 @@ html {
 .pagination>li>a, .pagination>li>span {
     margin-left: 5px;
     border-radius: 0px;
-    color: #dadada;
+    color: #000;
     border: 2px solid #dadada;
 }
 
