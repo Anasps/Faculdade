@@ -158,7 +158,9 @@ html {
     margin-top: 25px;
 }
 
-
+.texto {
+	text-align:left;
+}
 /* =-=--=-=-=-=-=-==-=-=-=-  2.2 Navbar   =-=-=-=-==-=-==-====-==-=- */
 
 #mainNavigation {
