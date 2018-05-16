@@ -721,6 +721,18 @@ section {
     overflow-x: hidden;
 }
 
+#header2 {
+	background: url(../img/slider2.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: table;
+    height: calc(100vh - 72px);
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
 .header-wrapper .header-overlay {
     min-height: 100vh;
     /*min-width: 100vw;*/
