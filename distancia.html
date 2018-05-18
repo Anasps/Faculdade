@@ -41,7 +41,7 @@
 
     </head>
 
-    <body>
+    <body id = "distancia">
 
         <div id="home-page">
 
@@ -71,16 +71,16 @@
                     <!-- nav links -->
                    <div class="collapse navbar-collapse" id="main-nav-collapse">
                         <ul class="nav navbar-nav navbar-right text-uppercase">
-                            <li>
+                            <li class="presencial">
                                 <a href="presencial.html"><span>Ensino Presencial</span></a>
                             </li>
 
-                            <li>
+                            <li class="distancia">
                                 <a href="distancia.html"><span>Ensino à Distância</span></a>
 
                             </li> <!-- end of /.dropdown -->
 
-                            <li>
+                            <li class="livres">
                                 <a href="livres.html"><span>Cursos Online</span></a>
                                
                             </li> <!-- end of /.dropdown -->
@@ -549,6 +549,16 @@ Por isso, fique ligado!
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
         <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+              $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                  $(this).addClass('current');
+                }
+              });
+            });
+        </script>
 
 
         <!-- script for portfolio section using hoverdirection -->

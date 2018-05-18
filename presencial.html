@@ -41,7 +41,7 @@
 
     </head>
 
-    <body>
+    <body id = "presencial">
 
         <div id="home-page">
 
@@ -70,7 +70,7 @@
 
                     <!-- nav links -->
                    <div class="collapse navbar-collapse" id="main-nav-collapse">
-                        <ul class="nav navbar-nav navbar-right text-uppercase">
+                        <ul class="nav navbar-nav navbar-right text-uppercase" id="menu">
                             <li>
                                 <a href="presencial.html"><span>Ensino Presencial</span></a>
                             </li>
@@ -830,6 +830,25 @@
         <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
         <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
 
+        <script type="text/javascript">
+            $(function(){
+              $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                  $(this).addClass('current');
+                }
+              });
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(function(){
+              $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                  $(this).addClass('current');
+                }
+              });
+            });
+        </script>
 
         <!-- script for portfolio section using hoverdirection -->
         <script type="text/javascript">
@@ -841,7 +860,6 @@
 
             });
         </script>
-
 
         <!-- script for twitter-feed using owl carousel-->
         <script type="text/javascript">
