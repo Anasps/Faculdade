@@ -327,7 +327,7 @@ html {
 #single-blog-page .page-head,
 #single-blog-left-sidebar .page-head,
 #single-blog-full-width .page-head {
-	background: url(../img/single_blog-bg.jpg);
+	background: url(../img/multiple_blog-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
