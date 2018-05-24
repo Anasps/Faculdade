@@ -354,7 +354,7 @@ html {
 
 .form-control {
 	background-color: #f9f9f9;
-	border: 1px solid #E0E0E0;
+	border: 1px solid #3a3a3a;
 	border-radius: 0px;
 	box-shadow: none;
 	height: auto;
@@ -447,7 +447,7 @@ h4 {
 }
 
 p {
-	color: #969595;
+	color: #3a3a3a;
 	line-height: 1.62em;
 	margin-bottom: 1.3em;
 }
@@ -546,7 +546,7 @@ li {
 }
 
 .section-sub-title {
-	color: #969595;
+	color: #3a3a3a;
 	margin-bottom: 0px;
 	text-transform: capitalize;
 	word-spacing: 1px;
