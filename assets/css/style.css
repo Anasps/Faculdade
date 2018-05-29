@@ -616,11 +616,11 @@ footer .input-group span.input-group-addon {
 }
 
 .redlink {
-	color: #CF1;
+	color: #ff0000;
 }
 
 #redlink{
-	color: #CF1;
+	color: #ff0000;
 }
 
 .footer-links li:hover a {
