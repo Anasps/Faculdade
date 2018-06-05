@@ -210,6 +210,10 @@ html {
     display: block;
 }
 
+#mainNavigation .navbar-nav li ul.dropdown-menu .itemFooter {
+    color: red;
+}
+
 #mainNavigation .navbar-nav li ul.dropdown-submenu {
     right: 100%;
     position: absolute;
