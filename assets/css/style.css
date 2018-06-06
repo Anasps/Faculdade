@@ -1028,6 +1028,10 @@ section {
     margin-bottom: 25px;
 }
 
+.price-box p{
+    color: #3a3a3a;
+}
+
 .price-box h3 {
 	border-bottom: 1px solid #dadada;
     margin-top: 0px;
@@ -1075,6 +1079,7 @@ section {
 }
 
 .price-box:hover h3,
+.price-box:hover p,
 .price-box:hover .price,
 .price-box:hover .price sup,
 .price-box:hover .price span {
