@@ -196,6 +196,12 @@ html {
 	padding: 25px 15px;
 }
 
+#mainNavigation .navbar-nav li a.active {
+	color: #0F62AC;
+	background-color: #f5f5f5;
+	padding: 25px 15px;
+}
+
 
 #mainNavigation .navbar-nav li a:hover {
 	color: #0F62AC;
