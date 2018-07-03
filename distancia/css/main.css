@@ -2221,7 +2221,7 @@ body {
 }
 
 .video-area {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/c-bg.png) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
@@ -2283,11 +2283,11 @@ body {
 /*----VIDEO AREA 2-----*/
 
 .video-area2 {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/c-bg1.png) no-repeat center center/cover;
 }
 
 .video-area2 .overlay-bg {
-  background: rgba(13, 137, 246, 0.75);
+  background: rgba(10, 105, 187, 0.75);
 }
 
 .video-area2 .video-wrap {
@@ -2345,7 +2345,7 @@ body {
 /*------VIDEO AREA 3-----*/
 
 .video-area3 {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/c-bg2.png) no-repeat center center/cover;
 }
 
 .video-area3 .overlay-bg {
@@ -2407,11 +2407,11 @@ body {
 /*---------VIDEO AREA 4--------*/
 
 .video-area4 {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/c-bg3.png) no-repeat center center/cover;
 }
 
 .video-area4 .overlay-bg {
-  background: rgba(13, 137, 246, 0.75);
+  background: rgba(10, 105, 187, 0.75);
 }
 
 .video-area4 .video-wrap {
