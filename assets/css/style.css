@@ -617,6 +617,10 @@ footer .input-group span.input-group-addon {
     border: 0px;
 }
 
+footer p{
+	color: white;
+}
+
 .footer-links li {
 	margin-bottom: 10px;
 }
