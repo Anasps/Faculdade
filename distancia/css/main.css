@@ -50,12 +50,10 @@
 }
 
 body {
-  color: #777777;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.5em;
-  position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #000000;
 }
 
 ol, ul {
@@ -2145,8 +2143,7 @@ body {
 }
 
 hr { 
-    border-style: inset;
-    border-width: 5px;
+    border-width: 2px;
     color: white;
 }
 
@@ -2157,7 +2154,7 @@ hr {
 }
 
 .video-area .overlay-bg {
-  background: rgba(81, 122, 117, 0.9)
+  background: rgba(81, 103, 106, 0.9);
 }
 
 .video-area .video-wrap {
