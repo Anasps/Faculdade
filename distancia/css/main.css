@@ -706,38 +706,6 @@ td, th {
   font-size: 24px;
 }
 
-b, i, sup, sub, u, del {
-  color: #f5204b;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-h5 {
-  font-size: 16px;
-}
-
-h6 {
-  font-size: 14px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.5em;
-}
-
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
   color: #777777;
 }
@@ -2176,12 +2144,20 @@ body {
   margin-bottom: 0px;
 }
 
+hr { 
+    border-style: inset;
+    border-width: 5px;
+    color: white;
+}
+
 .video-area {
   background: url(../img/c-bg.png) no-repeat center center/cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .video-area .overlay-bg {
-  background: rgba(13, 137, 246, 0.75);
+  background: rgba(81, 122, 117, 0.9)
 }
 
 .video-area .video-wrap {
