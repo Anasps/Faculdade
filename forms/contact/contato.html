@@ -71,7 +71,7 @@
                         <ul class="nav navbar-nav navbar-right text-uppercase" id="menu">
 
                             <li class="dropdown">
-                                <a href="../presencial.html" class="dropdown-toggle"><span>Ensino Presencial</span></a>
+                                <a href="../../presencial.php" class="dropdown-toggle"><span>Ensino Presencial</span></a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle"><span>Graduação</span></a>
@@ -91,19 +91,16 @@
                             </li>
 
                             <li class="dropdown">
-                                <a href="../distancia.html" class="dropdown-toggle"><span>Ensino à Distância</span></a>
+                                <a href="../../distancia/distancia.php" class="dropdown-toggle"><span>Ensino à Distância</span></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="../livres.html">Cursos de Capacitação</a>
+                                        <a href="../../distancia/livres.php">Cursos de Capacitação</a>
                                     </li>
                                     <li>
-                                        <a href="#">Cursos Técnicos</a>
+                                        <a href="../../distancia/curso_tecnico.php">Cursos Técnicos</a>
                                     </li>
                                     <li>
-                                        <a href="#">Graduação</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Pós-Graduação</a>
+                                        <a href="../../distancia/grad_distancia.php">Graduação</a>
                                     </li>
                                 </ul>  <!-- end of /.dropdown-menu -->
                             </li>
@@ -117,10 +114,10 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>ESPAÇO DO ALUNO</span></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="moodle.html">Moodle</a>
+                                        <a href="../../moodle.html">Moodle</a>
                                     </li>
                                     <li>
-                                        <a href="bibliotecas.html">Bibliotecas</a>
+                                        <a href="../../bibliotecas.html">Bibliotecas</a>
                                     </li>
                                     <li>
                                         <a href="https://portal.sophia.com.br/X7_23/Acesso.aspx?escola=6025">Secretaria</a>
@@ -171,7 +168,7 @@
                             </div>
                         </div> <!-- /.contact-speech -->
 
-                        <form method="post" action="contact.php">
+                        <form method="post" action="enviar_contato.php?tipo=contato">
 
                             <div class="row">
                                 <div class="col-md-4">
@@ -185,7 +182,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <input name="website" type="url" class="form-control" id="subject" required placeholder="Assunto">
+                                        <input name="subject" type="text" class="form-control" id="subject" required placeholder="Assunto">
                                     </div>
 
                                 </div>
@@ -209,154 +206,9 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15356.50906790987!2d-47.886425!3d-15.797242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b543f1c31b15ce!2sEdif%C3%ADcio+Denasa!5e0!3m2!1spt-BR!2sbr!4v1526498408189" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
            </div>
 		   <!-- /.g-map (google-map end) -->
-            
-            
-            
-            <!-- main-content end -->
-            <footer>
-                <div class="container">
-                    <div class="row">
-                    
-                    
-                    
+                       <!-- main-content end -->
 
-                        <!-- useful links -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="../../institucional.html">Institucional</a></li>
-                                    <li><a href="../../como_ingressar.html">Como ingressar</a></li>
-                                    <li><a href="../../ouvidoria.html">Ouvidoria</a></li>
-                                    <li><a href="#">Notícias</a></li>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="../../presencial.html">Educação Presencial</a></li>
-                                    <li><a href="../../distancia.html">Educação a Distância</a></li>
-                                    <li><a href="../../livres.html">Cursos Online</a></li>
-                                </div>
-                            </ul>
-                        </div>
-
-                        <!-- recent news -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Notícias Recentes</h4>
-
-                            <div class="row footer-news">
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <img src="../../assets/img/news/intro.jpg" class="img-responsive center-block" alt="recent news 1">
-                                </div>
-                                <div class="col-md-8 col-sm-4 col-xs-6">
-                                    <div class="row">
-                                        <p class="text-capitalize">
-                                            <a href="#">
-                                                a clear website gives more experience to the visitors
-                                            </a>
-                                        </p>
-                                        <p class="news-date">Dec 12,2015</p>
-                                    </div>
-                                </div>
-                            </div> <!-- /.footer-news -->
-
-                            <div class="row footer-news">
-                                <div class="col-md-4 col-sm-4 col-xs-6">
-                                    <img src="../../assets/img/news/intro.jpg" class="img-responsive center-block" alt="recent news 2">
-                                </div>
-                                <div class="col-md-8 col-sm-4 col-xs-6">
-                                    <div class="row">
-                                        <p class="text-capitalize">
-                                            <a href="#">
-                                                a clear website gives more experience to the visitors
-                                            </a>
-                                        </p>
-                                        <p class="news-date">Dec 12,2015</p>
-                                    </div>
-                                </div>
-                            </div> <!-- /.footer-news -->
-                        </div> <!-- /.footer-widget -->
-
-                        <!-- news-letter -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Receba notícias por e-mail</h4>
-
-                            <p>Receba semanalmente em seu e-mail </p>
-                            <div class="input-group margin-bottom-sm">
-                                <input class="form-control" type="text" placeholder="E-mail">
-                                <span class="input-group-addon">
-                                    <i class="fa fa-paper-plane fa-fw"></i>
-                                </span>
-                            </div>
-                            <p>Serviço de newsletter é inteiramente gratuito.</p>
-                        </div> <!-- /.footer-widget -->
-
-                        <!-- about avada agency -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Contato</h4>
-                            <div class="footer-address">
-                                <p>
-                                    Acesse o formulário de contato <a href="contato.html" class="redlink">aqui</a>
-                                </p>
-                            </div>
-                            <div class="footer-address">
-                                <p>
-                                    SCS Quadra 01 Bloco K - Ed. Denasa - Salas 1001 a 1004 - Asa Sul
-                                </p>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <ul class="footer-share-button">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    </ul> <!-- /.footer-share-button -->
-                                </div>
-                            </div>
-                        </div> <!-- /.footer-widget -->
-
-                    </div>
-                </div>
-            </footer>
-
-
-            <!-- footer-navigation start -->  
-            <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                <div class="container">
-                    
-                    <div class="navbar-header">
-                        
-                        <!-- navbar logo -->
-                        <!--<div class="navbar-brand">
-                            <span class="sr-only">&copy;FILIPI MACHADO</span>
-                            <a href="#">
-                                &copy;FILIPI MACHADO
-                            </a>
-                        </div>-->
-                        <!-- navbar logo -->
-
-                    </div><!-- /.navbar-header -->
-
-                    <!-- nav links -->
-                    <div class="collapse navbar-collapse" id="main-nav-collapse">
-                        <ul class="nav navbar-nav navbar-right text-capitalize">
-                            <li><a href="presencial.html">
-                                <span>ENSINO PRESENCIAL</span>
-                            </a></li>
-
-                            <li><a href="distancia.html">
-                                <span>ENSINO À DISTÂNCIA</span>
-                            </a></li>
-
-                            <li><a href="livres.html">
-                                <span>CURSOS ONLINE</span>
-                            </a></li>
-                        </ul>
-                    </div><!-- nav links -->
-                    
-                </div><!-- /.container -->
-            </nav>
-            <!-- footer-navigation end -->
+            <div id="footer_include"></div>
             
         </div> <!-- end of /#home-page -->
 
@@ -394,6 +246,8 @@
                     autoPlay: true,
                     pagination: false
                 });
+
+                $("#footer_include").load("../footer.html");
  
             });
         </script>
