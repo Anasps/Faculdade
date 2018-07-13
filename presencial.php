@@ -257,9 +257,9 @@
                                     <h3>Clube Anasps, Convênios e ENEM</h3>
                                     <div class="price-info">
                                         <p>Matrícula/1ª Mensalidade<br><strong><b>Gratuita</b></strong></p>
-                                        <p>Mensalidades<br>R$ 275,00 até o quinto dia útil</p>
+                                        <p>Mensalidades<br>R$ 250,00 até o quinto dia útil</p>
                                         <p>45%</p>
-                                        <p class="price"><span>275,00</span></p>
+                                        <p class="price"><span>250,00</span></p>
                                     </div> <!-- /.price-info -->
                                 </div> <!-- /.price-box -->
                             </div>

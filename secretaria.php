@@ -279,7 +279,7 @@
                             <div class="faq-widget">
                                 <div class="topics">
                                     <div class="faq-c">
-                                        <a href="files/cal2018-1.xlsx" class="btn blog-btn">
+                                        <a href="files/calacademico.PDF" class="btn blog-btn">
                                             Calendário 2018/1
                                         </a>
                                     </div>
