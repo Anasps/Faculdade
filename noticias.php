@@ -113,7 +113,12 @@
                                 $titulo_materia = $array['titulo'];
                                 $resumo = $array['resumo'];
                                 $id = $array['id'];
-                                $imagem = $array['imagem_nome'];
+                                if ($array['imagem_nome'] == null) {
+                                    $imagem = "generic.png";
+                                }
+                                else{
+                                    $imagem = $array['imagem_nome'];
+                                }
                                 $data = $array['data'];
                                 $autor = $array['autor'];
 

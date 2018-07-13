@@ -100,7 +100,12 @@
                                                 while($array = mysqli_fetch_assoc($sql_query_eventos)) {
 
                                                     $titulo_materia = $array['titulo'];
-                                                    $imagem = $array['nome_imagem'];
+                                                    if ($array['imagem_nome'] == null) {
+                                                        $imagem = "generic.png";
+                                                    }
+                                                    else{
+                                                        $imagem = $array['imagem_nome'];
+                                                    }
                                                     $data = $array['data'];
                                                     $resumo = $array['resumo'];
 
