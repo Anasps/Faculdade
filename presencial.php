@@ -245,9 +245,9 @@
                                     <h3>Associados,<br>Funcionários</h3>
                                     <div class="price-info">
                                         <p>Matrícula/1ª Mensalidade <br><b><strong>Gratuita</strong></b></p>
-                                        <p>Mensalidades<br>R$150,00 até o 5º dia útil</p>
-                                        <p>70%</p>
-                                        <p class="price"><span>150,00</span></p>
+                                        <p>Mensalidades<br>R$59,00 até o 5º dia útil</p>
+                                        <p>88%</p>
+                                        <p class="price"><span>59,00</span></p>
                                     </div> <!-- /.price-info -->
                                 </div> <!-- /.price-box -->
                             </div>
@@ -257,9 +257,9 @@
                                     <h3>Clube Anasps, Convênios e ENEM</h3>
                                     <div class="price-info">
                                         <p>Matrícula/1ª Mensalidade<br><strong><b>Gratuita</b></strong></p>
-                                        <p>Mensalidades<br>R$ 250,00 até o quinto dia útil</p>
-                                        <p>45%</p>
-                                        <p class="price"><span>250,00</span></p>
+                                        <p>Mensalidades<br>R$ 150,00 até o quinto dia útil</p>
+                                        <p>70%</p>
+                                        <p class="price"><span>150,00</span></p>
                                     </div> <!-- /.price-info -->
                                 </div> <!-- /.price-box -->
                             </div>
@@ -270,9 +270,9 @@
                                     <br><h5></h5>
                                     <div class="price-info">
                                         <p>Matrícula/1ª Mensalidade R$59,90</p>
-                                        <p>Mensalidades<br>R$ 300,00 até o quinto dia útil</p>
-                                        <p>40%</p>
-                                        <p class="price"><span>300,00</span></p>
+                                        <p>Mensalidades<br>R$ 250,00 até o quinto dia útil</p>
+                                        <p>50%</p>
+                                        <p class="price"><span>250,00</span></p>
                                     </div> <!-- /.price-info -->
                                 </div> <!-- /.price-box -->
                             </div>
