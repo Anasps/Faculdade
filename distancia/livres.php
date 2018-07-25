@@ -117,6 +117,61 @@
                     <div class="container"> 
                         <div class="portfolio-item-list">
                             <div class="row">
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="https://institutoanasps.com.br/moodle/course/view.php?id=31">
+                                                <img src="../assets/img/livres/cursos/automassage.jpg" class="img-responsive center-block" alt="portfolio 1">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <h5>Automassagem</h5>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+							
+								<div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="https://institutoanasps.com.br/moodle/course/view.php?id=32">
+                                                <img src="../assets/img/livres/cursos/estatutoidoso.jpg" class="img-responsive center-block" alt="portfolio 1">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <h5>Estatuto do Idoso</h5>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+							
+							<div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="https://institutoanasps.com.br/moodle/course/view.php?id=30">
+                                                <img src="../assets/img/livres/cursos/bannerredof.jpg" class="img-responsive center-block" alt="portfolio 1">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <h5>Redação Oficial</h5>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+				
 								<div class="col-md-4 col-sm-6">
                                     <div class="portfolio-item">
                                         <div class="item-image">
@@ -125,7 +180,6 @@
                                                 <div><span><i class="fa fa-plus"></i></span></div>
                                             </a>
                                         </div>
-
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
@@ -135,6 +189,7 @@
                                         </div> <!-- end of /.item-description -->
                                     </div> <!-- end of /.portfolio-item -->
                                 </div>
+								
                                 <div class="col-md-4 col-sm-6">
                                     <div class="portfolio-item">
                                         <div class="item-image">
