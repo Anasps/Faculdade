@@ -191,7 +191,7 @@
                                     <div class="feature-info">
                                         <h3 class="feature-heading">TURNOS</h3>
                                         <p class="feature-description">
-                                            Norturno - 18:30 às 22h
+                                            Noturno - 18:30 às 22h
                                         </p>  <!--   end of /.feature-description  -->
                                     </div> <!--   end of /.feature-info  -->
                                 </div> <!--  end of /.feature-content  -->
