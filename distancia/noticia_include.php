@@ -2,10 +2,8 @@
 
                 include '../conexao.php';
 
-                $p = $_GET["p"];
-                // Verifica se a variável tá declarada, senão deixa na primeira página como padrão
-                if(isset($p)){ 
-                    $p = $p;
+                if (isset($_GET["p"])) {
+                    $p = $_GET["p"];
                 }
                 else{
                     $p = 1;
@@ -63,7 +61,7 @@
                                 </p>
 
                                 <?php 
-                                    echo '<a class="text-capitalize" href="../noticia_total.php?id=' . $id . '">Saiba mais <span><i class="fa fa-angle-double-right"></i> </span></a>';
+                                    echo '<a class="text-capitalize" href="../noticia_full.php?id=' . $id . '">Saiba mais <span><i class="fa fa-angle-double-right"></i> </span></a>';
                                 ?>
                             </article> <!-- /.blog-item -->
 
@@ -100,11 +98,11 @@
                                                 while($array = mysqli_fetch_assoc($sql_query_eventos)) {
 
                                                     $titulo_materia = $array['titulo'];
-                                                    if ($array['imagem_nome'] == null) {
+                                                    if ($array['nome_imagem'] == null) {
                                                         $imagem = "generic.png";
                                                     }
                                                     else{
-                                                        $imagem = $array['imagem_nome'];
+                                                        $imagem = $array['nome_imagem'];
                                                     }
                                                     $data = $array['data'];
                                                     $resumo = $array['resumo'];

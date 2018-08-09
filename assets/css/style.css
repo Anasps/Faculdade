@@ -895,6 +895,7 @@ section {
 
 .portfolio-item {
 	margin-bottom: 3.1269em;
+	height: 300px;
 }
 
 .portfolio-item .item-image {

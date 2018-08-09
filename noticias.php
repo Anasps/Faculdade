@@ -45,10 +45,8 @@
 
         include 'conexao.php';
 
-        $p = $_GET["p"];
-        // Verifica se a variável tá declarada, senão deixa na primeira página como padrão
-        if(isset($p)){ 
-            $p = $p;
+        if (isset($_GET["p"])) {
+            $p = $_GET["p"];
         }
         else{
             $p = 1;

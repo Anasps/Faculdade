@@ -65,10 +65,8 @@
 
                             include 'conexao.php';
 
-                            $p = $_GET["p"];
-                            // Verifica se a variável tá declarada, senão deixa na primeira página como padrão
-                            if(isset($p)){ 
-                                $p = $p;
+                            if (isset($_GET["p"])) {
+                                $p = $_GET["p"];
                             }
                             else{
                                 $p = 1;
@@ -152,43 +150,38 @@
 
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="popular">
-                                            <div class="popular-post">
-                                                <img src="assets/img/news/blog-item1.jpg" class="img-responsive center-block" alt="popular-post 1">
-                                                <h5 class="post-widget-heading">Título</h5>
-                                                <span class="date">may 24,2015</span>
-                                                <p>
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                </p>
-                                            </div>
+
+                                                <?php
+
+                                                while($array = mysqli_fetch_assoc($sql_query_eventos)) {
+
+                                                    $titulo_materia = $array['titulo'];
+                                                    if ($array['nome_imagem'] == null) {
+                                                        $imagem = "generic.png";
+                                                    }
+                                                    else{
+                                                        $imagem = $array['nome_imagem'];
+                                                    }
+                                                    $data = $array['data'];
+                                                    $resumo = $array['resumo'];
+
+                                                ?>
+                                                <div class="popular-post">
+                                                    <?php echo '<img class="img-responsive center-block" src="../assets/img/news/events/'.$imagem.'">'; ?>
+                                                    <h5 class="post-widget-heading"><?php echo $titulo_materia; ?></h5>
+                                                    <span class="date"><?php echo $data; ?></span>
+                                                    <p>
+                                                       <?php echo $resumo; ?>
+                                                    </p>
+                                                </div>
+                                                <?php
+                                                    } 
+                                                ?>
                                         </div>
                                     </div>
                                 </div>
                             </div> <!-- /.tab-widget -->
                             <br>
-                            <!-- begin tab-widget -->
-                            <div class="tab-widget">
-                                <div  class="nav-tabs-default">
-                                    <ul class="nav nav-tabs">
-                                        <li class="active">
-                                            <a href="#popular" data-toggle="tab">
-                                                <div class="tab-widget-title">Outras Notícias</div>
-                                            </a>
-                                        </li>
-                                    </ul> <!-- end of nav-tabs -->
-
-                                    <div class="tab-content">
-                                        <div class="tab-pane active" id="popular">
-                                            <div class="popular-post">
-                                                <img src="assets/img/news/blog-item1.jpg" class="img-responsive center-block" alt="popular-post 1">
-                                                <h5 class="post-widget-heading">Título</h5>
-                                                <span class="date">may 24,2015</span>
-                                                <p>
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div> <!-- /.tab-widget -->
                         </aside>
                         <!-- end sidebar -->
