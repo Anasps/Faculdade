@@ -256,7 +256,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                    <h5>SISTEMA ÚNICO DE SAÚDE</h5>
+                                                    <h5>Sistema Único de Saúde</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -274,7 +274,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                    <h5>INTRODUÇÃO AO ORÇAMENTO PÚBLICO FEDERAL</h5>
+                                                    <h5>Introdução ao Orçamento Público Federal</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -293,7 +293,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>DIREITO PREVIDENCIÁRIO NA PRÁTICA</h5>
+                                                   <h5>Direito Previdenciário na Prática</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -312,7 +312,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>REFORMA TRABALHISTA</h5>
+                                                   <h5>Reforma Trabalhista</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -331,7 +331,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>CRIMES CONTRA O PATRIMÔNIO</h5>
+                                                   <h5>Crimes contra o Patrimônio</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -350,7 +350,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>INTRODUÇÃO AOS ESTUDOS DO ESPANHOL</h5>
+                                                   <h5>Introdução aos estudos do Espanhol</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -369,7 +369,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>NOÇÕES BÁSICAS DE POLÍTICA E CIDADANIA</h5>
+                                                   <h5>Noções básica de Política e Cidadania</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -388,7 +388,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>NOÇÕES DO PROCESSO LEGISLATIVO</h5>
+                                                   <h5>Noções do Processo Legislativo</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -407,7 +407,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>SISTEMA POLÍTICO BRASILEIRO</h5>
+                                                   <h5>Sistema Político Brasileiro</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -426,7 +426,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>EMPREGADO DOMÉSTICO</h5>
+                                                   <h5>Empregado Doméstico</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -445,7 +445,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>PENSÃO POR MORTE DO SERVIDOR PÚBLICO</h5>
+                                                   <h5>Pensão por morte do Servidor Público</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -464,7 +464,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                   <h5>REABILITAÇÃO PROFISSIONAL</h5>
+                                                   <h5>Reabilitação Profissional</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -483,7 +483,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                    <h5>APOSENTADORIA DO SERVIDOR PREVIDENCIÁRIO</h5>
+                                                    <h5>Aposentadoria do Servidor Previdenciário</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
@@ -502,7 +502,7 @@
                                         <div class="item-description">
                                             <div class="row">
                                                 <div class="col-xs-6">
-                                                    <h5>DIREITO PREVIDENCIÁRIO</h5>
+                                                    <h5>Direito Previdenciário</h5>
                                                 </div>
                                             </div>
                                         </div> <!-- end of /.item-description -->
